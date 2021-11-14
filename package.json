@@ -1,11 +1,15 @@
 {
 	"name": "fcc-learn-node-with-express",
+	"author": "Mark_T",
+	"description": "Free code Camp Node and Express practice",
 	"version": "0.1.0",
 	"dependencies": {
 		"express": "^4.14.0",
 		"body-parser": "^1.15.2",
 		"cookie-parser": "^1.4.3",
-		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git",
+		"mongodb": "~3.6.0",
+		"mongoose": "~5.4.0"
 	},
 	"main": "server.js",
 	"scripts": {
