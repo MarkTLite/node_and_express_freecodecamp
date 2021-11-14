@@ -8,6 +8,8 @@ WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
 
 RUN npm install --production
+RUN npm install express
+RUN npm install dotenv
 
 COPY . .
 
