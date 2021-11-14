@@ -5,7 +5,7 @@ var app = express();
 var mongoose = require('mongoose');
 
 //after setting up a hosted database on MongoDB Atlas, connect to the database
-mongoose.connect("mongodb+srv://Mark_T:test12345@cluster0-node-and-expre.nwvxj.mongodb.net/Cluster0-node-and-express-freecodecamp?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 
